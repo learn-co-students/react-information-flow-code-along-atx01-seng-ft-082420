@@ -80,6 +80,7 @@ prop_ to both `Child` components.
 
 ```js
 render() {
+
   return (
     <div className="parent" style={{backgroundColor: this.state.color}}>
       <Child handleColorChange={this.changeColor}/>
